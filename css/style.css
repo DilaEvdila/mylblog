@@ -134,7 +134,7 @@ aside p{
 	 border-top: solid 1px #eb34e8;	
 	 display: flex;
 	padding: 1px;
-	background: url(/img/contact.jpg)center no-repeat;
+	background: url(..img/contact.jpg)center no-repeat;
 	height: 100px;
 }
 footer ul {
