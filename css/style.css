@@ -134,7 +134,6 @@ aside p{
 	 border-top: solid 1px #eb34e8;	
 	 display: flex;
 	padding: 1px;
-	background: url(..img/contact.jpg)center no-repeat;
 	height: 100px;
 }
 footer ul {
@@ -152,10 +151,9 @@ footer ul li {
 footer h2 {
 	font-size: 20px;
 	padding: 3px 20px 30px 30px;
-color:#fff;
+	color:black;
 }
 .social-img:hover{
-border: solid coral;
 background: #eb34e8;
 transition-duration: 300ms;
 transition-property: all;
@@ -164,6 +162,6 @@ transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 footer p {
 	padding: 55px 0 0 30px;
 	font-size: 15px;
-	color: #fff;
+	color: black;
 	text-align: center;
 }
