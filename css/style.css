@@ -48,18 +48,22 @@ min-height: calc(100vh- 61px -100x) ;
 grid-template-columns: 1fr 1fr 1fr;
 margin-bottom: 0;
 }
+main article{padding: 3px;}
 main img { width: 100%;}
+main img:hover{  opacity: 0.8;}
 /*articlees background */
-.article1{ background: green;}
-.article2{ background: tomato;}
-.article3{ background: rgb(126, 71, 255);}
-.article4{ background: rgb(255, 71, 163);}
-.article5{ background: rgb(221, 255, 71);}
-.article6{ background: rgb(92, 255, 71);}
-.article7{ background: rgb(255, 71, 71);}
-.article8{ background: rgb(71, 99, 255);}
+.article1 h1{ background: green;}
+.article2 h1{ background: black;}
+.article2{background:rgb(19, 15, 15); height: 100%; color: #f5f5f6;}
+.article3 h1{ background: rgb(126, 71, 255);}
+.article4 h1{ background: rgb(255, 71, 163);}
+.article5 h1{ background: rgb(221, 255, 71);}
+.article6 h1{ background: rgb(92, 255, 71);}
+.article7 h1{ background: rgb(255, 71, 71);}
+.article8 h1{ background: rgb(71, 99, 255);}
+/*article 1 & 2
+.article1,.article2,.article3,.article4,.article5,.article6,.article7,.article8{border: 3px solid black;} */
 
-.article1,.article2,.article3,.article4,.article5,.article6,.article7,.article8{border: 3px solid black;}
 /*article 1 & 2*/
 .article1{
     grid-column-start: 1;
@@ -73,11 +77,24 @@ main img { width: 100%;}
 }
 */
 
-main article:hover {color: white;}
+main article p:hover {color: tomato;}
+main article h1:hover {color: white;}
+main .article2 h1:hover {color: tomato;}
+
+
 main .article1 img{
     width: 100%;
 }
+.article2 p{
+    font-size: 30px;
+    text-align: center;
 
+}
+.article2 h1{
+    font-size: 40px;
+    text-align: center;
+
+}
 main p {
     padding: 10px;
 }
@@ -89,11 +106,30 @@ main h1{
 
 /*footer */
 footer{
-    background-color: black;
+    background-color: rgb(32, 31, 31);
     margin-top: auto;
     height: 100px;
     color: white;
+    position: sticky;
 }
+
+ footer ul li a {
+    color: #10101f;
+    text-decoration: none;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 21px;
+   }
+footer li {
+    padding: 12px;
+    margin-bottom: auto;
+}
+
+footer img:hover{  opacity: 0.3;}
 
 /* tablet screen*/
 @media only screen and (max-width: 768px) {
@@ -118,10 +154,14 @@ footer{
              grid-column-end: 3;
              width: 100%;
     }
+    footer img {height: 20px;}
+    footer h1{font-size: 17px;}
 }
 
 
-/*
+
+
+
 /* mobile screen
 @media only screen and (max-width: 480px) {
     nav ul {
