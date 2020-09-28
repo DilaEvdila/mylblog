@@ -116,7 +116,7 @@ main h1{
 
 /*footer */
 footer{
-    background-color: #10101f;
+    background: url(../img/contact.jpg);
     margin-top: auto;
     height: 100px;
     color: white;
