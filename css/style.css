@@ -143,8 +143,7 @@ footer li {
     margin-bottom: auto;
 }
 
-footer:hover{  opacity: 0.3;
-background-color: #10101f;}
+
 
 /* tablet screen*/
 @media screen and (max-width: 768px) {
