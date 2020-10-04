@@ -53,15 +53,16 @@ main article{padding: 3px;}
 main img { width: 100%;}
 main img:hover{  opacity: 0.8;}
 /*articlees background */
-.article1 h1{ background: green;}
-.article2 h1{ background:#10101f;}
+article h1{ background: #10101f;
+color: white;}
+/*.article2 h1{ background:#10101f;}
 .article2{background:rgb(56, 52, 52); height: auto; color: #f5f5f6;}
 .article3 h1{ background: rgb(126, 71, 255);}
 .article4 h1{ background: rgb(255, 71, 163);}
 .article5 h1{ background: rgb(221, 255, 71);}
 .article6 h1{ background: rgb(92, 255, 71);}
 .article7 h1{ background: rgb(255, 71, 71);}
-.article8 h1{ background: rgb(71, 99, 255);}
+.article8 h1{ background: rgb(71, 99, 255);} */
 /*article 1 & 2
 .article1,.article2,.article3,.article4,.article5,.article6,.article7,.article8{border: 3px solid black;} */
 
@@ -85,9 +86,12 @@ main img:hover{  opacity: 0.8;}
     background: #10101f;
     color: #f5f5f6;
 }
+.learning:hover{
+    color: tomato;
+}
 
 main article p:hover {color: tomato;}
-main article h1:hover {color: white;}
+main article h1:hover {color: tomato;}
 main .article2 h1:hover {color: tomato;}
 
 
@@ -139,7 +143,8 @@ footer li {
     margin-bottom: auto;
 }
 
-footer img:hover{  opacity: 0.3;}
+footer:hover{  opacity: 0.3;
+background-color: #10101f;}
 
 /* tablet screen*/
 @media screen and (max-width: 768px) {
