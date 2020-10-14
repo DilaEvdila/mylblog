@@ -34,9 +34,9 @@ nav ul li a {
     margin-left: auto;
     height: 80px;
 }
-    #mylogo:hover{
+#mylogo:hover{
         opacity: 0.3;
-    }
+}
 
 nav ul li a:hover{
     color: tomato;
@@ -164,7 +164,6 @@ footer li {
     .article1{
                 width: 100%;
     }
-    main article .learning{ }  
     article{ grid-column-start: 1;
              grid-column-end: 3;
              width: 100%;
@@ -177,7 +176,6 @@ footer li {
 
 
 
-/* mobile screen
 @media screen and (max-width: 480px) {
     nav ul {
         font-size: 18px;
@@ -199,4 +197,4 @@ footer li {
              width: 100%;
     }
 }
-*/
+
